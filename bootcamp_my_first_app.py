@@ -1,3 +1,4 @@
 import streamlit as st
 
-st.write("HELLOOOOOOO")
+st.title('Web App')
+st.text('Hello MOJIX')
