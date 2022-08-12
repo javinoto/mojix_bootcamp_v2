@@ -8,7 +8,7 @@ st.text('Hello MOJIX')
 
 st.markdown('Vamos a ver lo básico pero poderoso de Python')
 
-st.subheader('###Verificar el tamaño de una lista!!###')
+st.subheader('Verificar el tamaño de una lista!!')
 st.success('Mylist = [1,2,3]')
 st.success('if(1 := len(mylist) > 2)')
 st.success('print(l)')
