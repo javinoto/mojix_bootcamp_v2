@@ -1,4 +1,5 @@
 import streamlit as st
 
-st.title('Web App')
+st.title('TUTURIAL DE PYTHON CON STREAMLIB')
 st.text('Hello MOJIX')
+
