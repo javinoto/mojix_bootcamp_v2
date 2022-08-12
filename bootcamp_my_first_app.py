@@ -8,3 +8,8 @@ st.text('Hello MOJIX')
 
 st.markdown('Vamos a ver lo básico pero poderoso de Python')
 
+st.success('Successful')
+st.markdown('`This is a markdown`')
+st.info("This is an information")
+st.warning('This is a warning')
+st.error('This is an error')
