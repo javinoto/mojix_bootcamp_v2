@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title('TUTURIAL DE PYTHON CON STREAMLIB')
+st.title('TUTURIAL DE PYTHON CON STREAMLIB 2022')
 st.text('Hello MOJIX')
 
 # st.header('This is a header')
