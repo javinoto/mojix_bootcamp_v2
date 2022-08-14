@@ -6,7 +6,7 @@ st.text('Hello MOJIX')
 x = 1
 y = 2
 
-st.success('x + y')
+print(x+y)
 
 # st.header('This is a header')
 # st.subheader('This is a subheader')
