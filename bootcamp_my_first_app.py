@@ -1,24 +1,36 @@
 import streamlit as st
 
-st.title('TUTURIAL DE PYTHON CON STREAMLIB')
-st.text('Hello MOJIX')
+col1, col2 = st.columns(2)
 
-x = 1
-y = 2
+with col1:
+    st.image("https://live.staticflickr.com/65535/52284883263_fe574df15e_z.jpg", width=150)
 
-print(x+y)
+with col2:
+    st.caption("")
 
-# st.header('This is a header')
-# st.subheader('This is a subheader')
+""
+"# 10 Cool Beginner Python Tricks That Will Make Your Life Easier"
 
-st.markdown('Vamos a ver lo básico pero poderoso de Python')
+st.caption("## Simple but effective tips for every python lovers")
+st.image("https://live.staticflickr.com/65535/52283896242_10a45d1877_z.jpg")
 
-st.subheader('Verificar el tamaño de una lista!!')
+
+''
+st.write('''
+## Walrus operator
+
+The Walrus **or := operator** is one of the latest additions to python 3.8. It is an assignment operator that lets you assign value to a variable within an expression like conditional statements, loops, etc.
+''')
+
+st.caption('### Example')
+
+'If we want to check and print the length of a list:'
+
+
 st.success('Mylist = [1,2,3]')
-st.success('if(1 := len(mylist) > 2)')
+st.success('if(l := len(mylist) > 2)')
 st.success('print(l)')
 
-# st.markdown('`This is a markdown`')
-# st.info("This is an information")
-# st.warning('This is a warning')
-# st.error('This is an error')
+st.caption('### Output')
+
+st.success('3')
