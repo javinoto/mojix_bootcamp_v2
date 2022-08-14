@@ -3,6 +3,11 @@ import streamlit as st
 st.title('TUTURIAL DE PYTHON CON STREAMLIB')
 st.text('Hello MOJIX')
 
+x = 1
+y = 2
+
+st.success('x + y')
+
 # st.header('This is a header')
 # st.subheader('This is a subheader')
 
